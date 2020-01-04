@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+// MARK: - ImageLoaderNetworkRequest
+class ImageLoaderNetworkRequest {
+    
+}

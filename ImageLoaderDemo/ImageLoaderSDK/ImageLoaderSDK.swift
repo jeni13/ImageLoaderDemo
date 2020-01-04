@@ -8,6 +8,7 @@
 
 import UIKit
 
+// MARK: - ImageLoaderSDK
 public class ImageLoaderSDK {
     
     public static var instance = ImageLoaderSDK()

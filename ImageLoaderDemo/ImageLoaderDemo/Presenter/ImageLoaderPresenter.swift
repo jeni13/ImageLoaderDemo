@@ -6,4 +6,9 @@
 //  Copyright © 2020 Jeni. All rights reserved.
 //
 
-import Foundation
+import ImageLoaderSDK
+
+// MARK: - ImageLoaderPresenter
+class ImageLoaderPresenter {
+    
+}
