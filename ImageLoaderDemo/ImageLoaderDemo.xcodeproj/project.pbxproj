@@ -26,6 +26,8 @@
 		8AE1BBC523C0DCA800B626AD /* ImageLoaderSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE1BBB023C0DCA600B626AD /* ImageLoaderSDK.framework */; };
 		8AE1BBC623C0DCA800B626AD /* ImageLoaderSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE1BBB023C0DCA600B626AD /* ImageLoaderSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8AE1BBCF23C0DCD000B626AD /* ImageLoaderSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1BBCE23C0DCD000B626AD /* ImageLoaderSDK.swift */; };
+		8AE1BBD323C0E3A500B626AD /* ImageLoaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1BBD123C0E3A500B626AD /* ImageLoaderCollectionViewCell.swift */; };
+		8AE1BBD423C0E3A500B626AD /* ImageLoaderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE1BBD223C0E3A500B626AD /* ImageLoaderCollectionViewCell.xib */; };
 		AE1A3FFCD4F9F94C231FE89B /* Pods_ImageLoaderDemo_ImageLoaderDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654BCA122203913DACD4B4B7 /* Pods_ImageLoaderDemo_ImageLoaderDemoUITests.framework */; };
 		F1BF53393E638F69BE0C9045 /* Pods_ImageLoaderDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CCC4A55BBB2D2506F03963 /* Pods_ImageLoaderDemo.framework */; };
 /* End PBXBuildFile section */
@@ -114,6 +116,8 @@
 		8AE1BBBF23C0DCA800B626AD /* ImageLoaderSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderSDKTests.swift; sourceTree = "<group>"; };
 		8AE1BBC123C0DCA800B626AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AE1BBCE23C0DCD000B626AD /* ImageLoaderSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderSDK.swift; sourceTree = "<group>"; };
+		8AE1BBD123C0E3A500B626AD /* ImageLoaderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderCollectionViewCell.swift; sourceTree = "<group>"; };
+		8AE1BBD223C0E3A500B626AD /* ImageLoaderCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageLoaderCollectionViewCell.xib; sourceTree = "<group>"; };
 		A1CCC4A55BBB2D2506F03963 /* Pods_ImageLoaderDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageLoaderDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4A0612030B40CAF45D3912 /* Pods-ImageLoaderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageLoaderDemo.release.xcconfig"; path = "Target Support Files/Pods-ImageLoaderDemo/Pods-ImageLoaderDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D01352562FDE0F2D2EDD36B6 /* Pods-ImageLoaderDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageLoaderDemoTests.release.xcconfig"; path = "Target Support Files/Pods-ImageLoaderDemoTests/Pods-ImageLoaderDemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -250,6 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				8AE1BB7223C0D2E300B626AD /* ImageLoaderViewController.swift */,
+				8AE1BBD023C0E37400B626AD /* CollectionCell */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -287,6 +292,15 @@
 				8AE1BBC123C0DCA800B626AD /* Info.plist */,
 			);
 			path = ImageLoaderSDKTests;
+			sourceTree = "<group>";
+		};
+		8AE1BBD023C0E37400B626AD /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				8AE1BBD123C0E3A500B626AD /* ImageLoaderCollectionViewCell.swift */,
+				8AE1BBD223C0E3A500B626AD /* ImageLoaderCollectionViewCell.xib */,
+			);
+			path = CollectionCell;
 			sourceTree = "<group>";
 		};
 		D56C864EC730D19D6D24B9B4 /* Frameworks */ = {
@@ -469,6 +483,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AE1BB7E23C0D2E600B626AD /* LaunchScreen.storyboard in Resources */,
+				8AE1BBD423C0E3A500B626AD /* ImageLoaderCollectionViewCell.xib in Resources */,
 				8AE1BB7B23C0D2E600B626AD /* Assets.xcassets in Resources */,
 				8AE1BB7623C0D2E300B626AD /* Main.storyboard in Resources */,
 			);
@@ -619,6 +634,7 @@
 				8AE1BBA823C0D6F500B626AD /* ImageLoaderNetworkRequest.swift in Sources */,
 				8AE1BB7123C0D2E300B626AD /* SceneDelegate.swift in Sources */,
 				8AE1BB7923C0D2E300B626AD /* ImageLoaderDemo.xcdatamodeld in Sources */,
+				8AE1BBD323C0E3A500B626AD /* ImageLoaderCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
